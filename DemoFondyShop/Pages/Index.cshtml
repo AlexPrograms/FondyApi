@@ -8,3 +8,14 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+<form name="tocheckout" method="POST" action="https://pay.fondy.eu/api/checkout/redirect/">
+    <input type="text" name="order_id" value="test123457">
+    <input type="text" name="order_desc" value="test order">
+    <input type="text" name="currency" value="USD">
+    <input type="text" name="amount" value="125">
+    <input type="text" name="signature" value="1263a619180f04bc1c8ebe85797f127e1b676b3f">
+    <input type="text" name="merchant_id" value="1537935">
+    <input type="submit">
+</form>
